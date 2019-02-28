@@ -15,7 +15,7 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "prepare": "stencil build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@stencil/core": "~0.16.2"
